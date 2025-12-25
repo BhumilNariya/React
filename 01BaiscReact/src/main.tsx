@@ -6,7 +6,7 @@ import App from './App.tsx'
 function MyApp(){
   return(
     <div>
-      <h1> MyApp function!!!!</h1>
+      <h1> MyApp function!!!!</h1>   // worked in render
     </div>
   )
 }
@@ -14,21 +14,25 @@ function MyApp(){
 const ReactElement={
     type: 'a',
     props:{
-        href: 'https://google.com',
+        href: 'https://google.com',      //// not worked in render
         target:'_blank',
     },
     children:"click me to visit google!!"
 }
 
+const username="bhhumil";
 const reactelement=React.createElement(
   'a',
-  {href:"https://google.com",target:"_blank"},
-  'click me Google'
+  {href:"https://google.com",target:"_blank"},   ////worked in render
+  'click me Google',
+  username
+
+
 )
 
 
 const anotherElement=(
-   <a href="htts://goggle.com" target='_blank'>Visit Google</a>
+   <a href="htts://goggle.com" target='_blank'>Visit Google</a>   ///worked in render
 )
 
 createRoot(document.getElementById('root')!).render(
