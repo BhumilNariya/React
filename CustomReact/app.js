@@ -26,7 +26,7 @@ const ReactElement={
     },
     children:"click me to visit google!!"
 }
-
+//how js convert in to the react endof the -- react understand this syntax no understand the function  syntax..
 
 const mainContainer=document.getElementById("root");
 customRender(ReactElement,mainContainer)

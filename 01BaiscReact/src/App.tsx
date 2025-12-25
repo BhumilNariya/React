@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Cart from './App2'
+import Cart from './chai'
 
 
 function App() {
