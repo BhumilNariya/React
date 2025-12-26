@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+
 function App() {
 
 
@@ -25,6 +26,8 @@ function App() {
       <h2>Counter Value is :{counter}</h2>
       <button onDoubleClick={addValue}>Like Post:{counter}</button>
       <button onClick={removeValue}>Dislike Post:{counter}</button>
+      
+     
       
     </>
   )
