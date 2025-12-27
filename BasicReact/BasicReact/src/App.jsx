@@ -24,7 +24,7 @@ function App() {
     <>
       <h1>Bhumil Nariya</h1>
       <h2>Counter Value is :{counter}</h2>
-      {/* <button onDoubleClick={addValue}>Like Post:{counter}</button> */}
+      <button onDoubleClick={addValue}>Like Post:{counter}</button>
       <button onDoubleClick={()=>setCounter(counter+1)}>Like Post:{counter}</button>
       <button onClick={removeValue}>Dislike Post:{counter}</button>
       
