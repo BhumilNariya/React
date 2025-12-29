@@ -4,8 +4,10 @@ tailwind css
 
 npm install tailwindcss @tailwindcss/vite
 
-
+vite.confug.js
 import tailwindcss from '@tailwindcss/vite'
 tailwindcss(),
 
+
+index.css
 @import "tailwindcss";
