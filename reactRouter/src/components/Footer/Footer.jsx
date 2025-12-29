@@ -72,9 +72,9 @@ export default function Footer() {
                 <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center">
-                        © 2023
-                        <a href="https://hiteshchoudhary.com/" className="hover:underline">
-                            hiteshchoudhary
+                        © 2025
+                        <a href="https://bhumilnariya.me/" className="hover:underline">
+                           BhumilNariya
                         </a>
                         . All Rights Reserved.
                     </span>
@@ -153,7 +153,7 @@ export default function Footer() {
                                     clip-rule="evenodd"
                                 />
                             </svg>
-                            <span className="sr-only">Dribbble account</span>
+                            <span className="sr-only">PHOENIX account</span>
                         </Link>
                     </div>
                 </div>
