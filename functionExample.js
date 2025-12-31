@@ -30,3 +30,19 @@ function addTwoNumbers(val1,val2,...num1){
 }
 
 console.log(addTwoNumbers(10,22,56,232))
+
+console.log(addOne(5))
+
+function addOne(num){
+    return num +1
+}
+
+
+
+
+
+
+const addTwo=function (num){
+    return num +1
+}
+console.log(addTwo(2))
