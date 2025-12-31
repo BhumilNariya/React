@@ -1,0 +1,14 @@
+function addNumbers(n1,n2){
+    // console.log(n1+n2);
+    return n1+n2
+}
+
+const result=addNumbers(2,3)
+// console.log(result);
+
+
+function loginUserMessage(username){
+        return `${username} just Loggedin`
+}
+
+console.log(loginUserMessage("Bhumil"))
