@@ -40,4 +40,4 @@ function SimpleArray(getArray){
 }
 
 // console.log(SimpleArray(resultArray))
-console.log(["Bhumil","Phoenix","Sam"])
+console.log(SimpleArray(["Bhumil","Phoenix","Sam"]))
