@@ -1,23 +1,26 @@
-const promiseOne=new Promise(function(reslove,reject){
-    setTimeout(function(){
-        console.log("Asyncccc!!")
-        reslove()
-    },1000)
+// Method -1
+// const promiseOne=new Promise(function(reslove,reject){
+//     setTimeout(function(){
+//         console.log("Asyncccc!!")
+//         reslove()
+//     },1000)
 
-})
+// })
 
-promiseOne.then(function(){
-    console.log("Promise Task")
-})
+// promiseOne.then(function(){
+//     console.log("Promise Task")
+// })
 
-new Promise(function (reslove, reject) {
-  setTimeout(function () {
-    console.log("Aysnc2222");
-    reslove();
-  }, 1000);
-}).then(function () {
-  console.log("Promise Task2222");
-});
+
+//Method--2
+// new Promise(function (reslove, reject) {
+//   setTimeout(function () {
+//     console.log("Aysnc2222");
+//     reslove();
+//   }, 1000);
+// }).then(function () {
+//   console.log("Promise Task2222");
+// });
 
 const PromiseTwo = new Promise(function (reslove, reject) {
   setTimeout(function () {
@@ -43,6 +46,8 @@ PromiseTwo.then(function (user) {
   .finally(() => {
     console.log("The Promise Either Reslove Or Reject");
   });
+
+
 
 const PromiseThree = new Promise(function (reslove, reject) {
   setTimeout(function () {
