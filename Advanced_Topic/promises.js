@@ -86,7 +86,7 @@ consumePromiseThree();
 
 // gellAllUser();
 
-
+///is higher priority so they fast load and aysnc and promise is laod after the fetch
 fetch("https://api.github.com/users/BhumilNariya")
 .then((response)=>{
     return response.json()
