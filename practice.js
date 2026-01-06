@@ -83,22 +83,32 @@ async function getAllUser(){
 // getAllUser()
 
 
-fetch("https://api.github.com/users/BhumilNariya")
-.then(function(response){
-    let error=true;
-   if(!error){
-       return response.json()
-   }
-})
-.then(function(response){
-    console.log(response.bio)
-    console.log(response.id)
-})
-.catch(function(error){
-    console.log("Error:-",error)
-})
-.finally(function(){
-    console.log("finally Block")
-})
+// fetch("https://api.github.com/users/BhumilNariya")
+// .then(function(response){
+//     let error=true;
+//    if(!error){
+//        return response.json()
+//    }
+// })
+// .then(function(response){
+//     console.log(response.bio)
+//     console.log(response.id)
+// })
+// .catch(function(error){
+//     console.log("Error:-",error)
+// })
+// .finally(function(){
+//     console.log("finally Block")
+// })
 
 
+const obj1 = {1: "a", 2: "b"}
+const obj2 = {3: "a", 4: "b"}
+const obj4 = {5: "a", 6: "b"}
+
+// const obj3 = { obj1, obj2 }
+// console.log(obj3)
+const obj3 = Object.assign( {},obj1, obj2, obj4)
+// console.log(obj3)
+
+console.log(Object.entries(obj1))
