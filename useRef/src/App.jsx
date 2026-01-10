@@ -10,15 +10,19 @@ function App() {
 
   // let btnRef = useRef();
 
-  const [counter,setCounter]=useState(0)
-  let btnref=useRef();
-  
+  const [counter, setCounter] = useState(0);
+  let btnref = useRef();
 
   return (
     <>
-  <h1>Counter is {counter}</h1>
-  <button onClick={()=>setCounter(counter+1)} ref={btnref}>Click ME</button>
-  <button onClick={()=>btnref.current.style.backgroundColor="green"}>Change Color of 1st Btn</button>
+      <h1>Counter is {counter}</h1>
+      <button onClick={() => setCounter(counter + 1)}>Click ME</button>
+      <button
+        onClick={() => (btnref.current.style.backgroundColor = "green")}
+        ref={btnref}
+      >
+        Change Color of 1st Btn
+      </button>
 
       {/* <h1>Hello</h1>
       <button onClick={()=>setCount(count+1)} 
@@ -30,7 +34,7 @@ function App() {
         >
         Change Color of 1 btn
       </button> */}
-      <StopWatch/>
+      <StopWatch />
     </>
   );
 }
